@@ -1,0 +1,8 @@
+language: java
+
+addons:
+    sonarcloud:
+        organization: "silentsoft"
+
+    script:
+    - ./gradlew sonarqube
