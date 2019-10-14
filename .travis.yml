@@ -1,7 +1,9 @@
 language: java
 
+dist: trusty
+
 jdk:
-- openjdk8
+- oraclejdk8
 
 addons:
     sonarcloud:
