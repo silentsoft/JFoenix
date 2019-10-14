@@ -6,6 +6,8 @@ jdk:
 addons:
     sonarcloud:
         organization: "silentsoft"
+        token:
+            secure: "9032f42badb99f9edd6799c5718ac157fecb998b"
 
     script:
     - ./gradlew sonarqube
